@@ -1,12 +1,34 @@
-# Changelog Fleur Roleplay 
+# Changelog Fleur Roleplay - 1.0.1
 Todos los cambios notables a este proyecto se documentarán en este archivo.
 
 Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro discord](https://discord.gg/erCaR7q).
 
 ## [Versiones publicadas]
 
-## [1.0.0] - 02/01/2020
 
+## [1.0.1] - 06/01/2020
+
+- Ahora el dueño de una propiedad puede contratar a un amueblador (mapper) para editar los muebles de su casa, el dueño podrá retirar dicho permiso con un comando.
+- Agregado un comando para el staff, ahora podrán ver todo el historial de sanciones, kicks y baneos dentro del servidor.
+- Ahora cada cuenta tendrá una DBID. (una ID única por cuenta, no se podrá cambiar)
+- Ahora los reportes de los jugadores se categorizan por prioridad para el staff.
+- Removida la restricción de solo poder tener un coche activo.
+- Ahora los coches al desconectar un jugador se quedaran en el servidor.
+- Agregado un limite, solo puedes retirar máximo 5 mil dolares por payday en el banco.
+- Ahora un jugador podrá solicitar un cambio de nombre ingame vía comando.
+- Creados dos comandos para el staff, podrán rechazar o aceptar el cambio de nombre de un jugador.
+- Agregado un dialogo de advertencia a la hora de cambiar un nombre.
+- Ahora los desarrolladores podrán desactivar o activar el anticheat de armas y munición dentro del servidor. (por default está activado)
+- Ahora si estas encarcelado ingame podrás usar /qcondena para salir de prisión si tu tiempo termino.
+- Re modificado el dialogo del MDC. (https://i.imgur.com/GUPkMAL.png)
+- Agregado un anti gbug para evitar que la gente se suba a vehículos mientras estan muertos.
+- Re modificados los comandos básicos de rol. 
+- Se agregaron once categorías en los concesionarios.
+- Más de 300 muebles nuevos para el sistema de amueblar.
+- Ahora si tu estado es "MUERTO" no podrás escribir por el chat normal.
+
+
+## [1.0.0] - 02/01/2020
 
 - Agregado un mensaje informativo al conectar y detectar si un jugador fue sancionado. (ej: El staff Mugsy te sancionó mientras no estabas en el servidor, 30 minutos por hermoso.)
 - Se creó una base para conectar el servidor SA:MP al servidor Discord. De esta forma el staff podrán interactuar con los jugadores sin necesidad de estar conectados en el juego.
