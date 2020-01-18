@@ -1,9 +1,32 @@
-# Changelog Fleur Roleplay - 1.0.1
+# Changelog Fleur Roleplay - 1.0.2
 Todos los cambios notables a este proyecto se documentarán en este archivo.
 
 Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro discord](https://discord.gg/erCaR7q).
 
 ## [Versiones publicadas]
+
+## [1.0.2] - 18/01/2020
+
+- Se agregaron mas de nuevas 15 drogas al servidor.
+- Ahora la droga depende el tipo se puede empaquetar.
+- Los paquetes de la droga se podrán guardar en propiedades y vehículos.
+- Creado un comando para la sheriff, podrá revisar el interior de un paquete.
+- Se agregaron 3 membresías al servidor. (bronce, plata y oro)
+- Agregadas 6 partes nuevas del cuerpo. (para el sistema de heridas)
+- Fixeados algunos errores de sincronización a la hora de un tiroteo.
+- Ahora un staff si espectea a alguien podrá ver toda la información en un textdraw.
+- Aumentada la distancia de dibujado en los mapeos de Montgomery.
+- Removidos 4 semáforos nuevos en Montgomery.
+- Fixeado un error del sistema de heridas.
+- Agregadas nuevas columnas a la base de datos.
+- Agregado un /ayuda solo para usuarios premium.
+- Removidos 6 semaforos en Palomino Creek.
+- Fixeado un error visual en el velocímetro.
+- Arreglados algunos callbacks del MDC policial.
+- Agregados más de 800 objetos nuevos por todo Palomino Creek decorando y dando el entorno correspondiente.
+- Dividos los mapeos de la gamemode por módulos.
+- Ahora el /reaparecer solo se puede usar cuando pasen 120 segundos de tu estado de muerte.
+
 
 
 ## [1.0.1] - 06/01/2020
@@ -21,11 +44,12 @@ Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro
 - Ahora los desarrolladores podrán desactivar o activar el anticheat de armas y munición dentro del servidor. (por default está activado)
 - Ahora si estas encarcelado ingame podrás usar /qcondena para salir de prisión si tu tiempo termino.
 - Re modificado el dialogo del MDC. (https://i.imgur.com/GUPkMAL.png)
-- Agregado un anti gbug para evitar que la gente se suba a vehículos mientras estan muertos.
+- Agregado un anti gbug para evitar que la gente se suba a vehículos mientras están muertos.
 - Re modificados los comandos básicos de rol. 
 - Se agregaron once categorías en los concesionarios.
 - Más de 300 muebles nuevos para el sistema de amueblar.
 - Ahora si tu estado es "MUERTO" no podrás escribir por el chat normal.
+
 
 
 ## [1.0.0] - 02/01/2020
@@ -36,7 +60,7 @@ Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro
 - Agregado el comando /st para hablar por bajo en teléfono. (formato en chat: Nombre_Apellido dice por teléfono en bajo: Hola)
 - Se fixearon errores críticos de la base de datos.
 - Creado el comando /mismultas donde podrás ver en un dialogo la lista de tus multas.
-- Creado el comando /pagarmulta para poder pagar la multa segun la ID de la mismas.
+- Creado el comando /pagarmulta para poder pagar la multa según la ID de la mismas.
 - Se agregó una función de poder imprimir la información de la multa en el chat.
 - Removidos 7 semaforos en Montgomery y agregadas señales de tráfico.
 - Terminado el comando /staff para consultar la administración en linea.
@@ -52,7 +76,7 @@ Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro
 - Los miembros de facción ahora podrán enseñar su /placa o mirarla.
 - Se crearon 15 módulos nuevos para dividir comandos y sistemas
 - Editados los textlabels de las propiedades en venta.
-- Se comienza con el comando /soporte para la versión proxima.
+- Se comienza con el comando /soporte para la versión próxima.
 - Ahora podrás colocar musica dentro de propiedades.
 - Cambiado el máximo de muebles por propiedad, antes eran 200 muebles ahora son 400 muebles.
 - Agregados nuevos valores informativos para el /cuenta.
@@ -61,7 +85,7 @@ Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro
 - Agregados más de 30 parametros informativos para el /acocheinfo.
 - Creado el comando /mappers para ver los mappers online.
 - Separados todos los news en módulos de la gamemode.
-- Ahora los vehículos se podran asegurar, si tienes un vehículo sin seguro los sheriffs podrán multarte.
+- Ahora los vehículos se podrán asegurar, si tienes un vehículo sin seguro los sheriffs podrán multarte.
 - Se terminó el sistema de teléfonos de prepago. (temporales)
 - Cambiados los precios de los negocios para comprar dentro.
 - Se agregó el comando /interiores para el staff.
