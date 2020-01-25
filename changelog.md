@@ -1,9 +1,31 @@
-# Changelog Fleur Roleplay - 1.0.2
+# Changelog Fleur Roleplay SA:MP
 Todos los cambios notables a este proyecto se documentarán en este archivo.
 
-Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro discord](https://discord.gg/erCaR7q).
+Contamos con una [web](https://fleur-roleplay.es) para que obtengas más información sobre nosotros, puedes visitarnos en [nuestro discord](https://discord.gg/erCaR7q).
 
 ## [Versiones publicadas]
+
+## [1.0.3] - 25/01/2020
+
+- Se agregó el infernus al catalogo de vehículos.
+- Agregado un diálogo de confirmación antes de enviar un MP a un staff duty.
+- Agregado un diálogo de confirmación antes de enviar un reporte.
+- Fixeado un bug del comando /log para la administración.
+- Fixeado un error en la carga de vehículos que ocasionaba que los últimos vehículos comprados no aparecieran ni respondieran en el servidor.
+- Removidos algunos mapeos sin uso de Los Santos.
+- Re modificada la función de sacar vehículos.
+- Creado el comando /mutearb para bloquear el uso del /b a un jugador.
+- Terminado el /reportes, agregada información de hace cuantos minutos se envió el reporte.
+- Terminado de traducir la mayor parte de la gamemode.
+- Arreglados algunos bugs del procesamiento de la base de datos.
+- Creado el comando /cambiar hora y /cambiar clima para el staff.
+- Removidos 5 semáforos de Dillmore.
+- Fixeado un bug del /setplaca para el líder de la SD.
+- Limpiado el GM de códigos inútiles que lo sobrecargaban.
+- Arreglado e insertado parkings para vehículos.
+- Bug del hospital de Montgomery solucionado.
+
+
 
 ## [1.0.2] - 18/01/2020
 
@@ -24,7 +46,7 @@ Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro
 - Fixeado un error visual en el velocímetro.
 - Arreglados algunos callbacks del MDC policial.
 - Agregados más de 800 objetos nuevos por todo Palomino Creek decorando y dando el entorno correspondiente.
-- Dividos los mapeos de la gamemode por módulos.
+- Divididos los mapeos de la gamemode por módulos.
 - Ahora el /reaparecer solo se puede usar cuando pasen 120 segundos de tu estado de muerte.
 
 
@@ -77,12 +99,12 @@ Contamos con una [web](https://fleur-roleplay.es), puedes visitarnos en [nuestro
 - Se crearon 15 módulos nuevos para dividir comandos y sistemas
 - Editados los textlabels de las propiedades en venta.
 - Se comienza con el comando /soporte para la versión próxima.
-- Ahora podrás colocar musica dentro de propiedades.
+- Ahora podrás colocar música dentro de propiedades.
 - Cambiado el máximo de muebles por propiedad, antes eran 200 muebles ahora son 400 muebles.
 - Agregados nuevos valores informativos para el /cuenta.
 - Eliminado el sistema por completo de IRC y sus comandos.
 - Creado el comando /ayudantes para ver los ayudantes online.
-- Agregados más de 30 parametros informativos para el /acocheinfo.
+- Agregados más de 30 parámetros informativos para el /acocheinfo.
 - Creado el comando /mappers para ver los mappers online.
 - Separados todos los news en módulos de la gamemode.
 - Ahora los vehículos se podrán asegurar, si tienes un vehículo sin seguro los sheriffs podrán multarte.
