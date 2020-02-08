@@ -5,6 +5,27 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 
 ## [Versiones publicadas]
 
+## [1.0.4] - 08/02/2020
+
+- Modificado el tiempo de logeo, de 60 segundos a 120 segundos.
+- Cambiado el lugar de spawn del servidor.
+- Arregladas algunas funciones del anticheat.
+- Aumentado el tiempo de uso del /reaparecer.
+- Agregado un mensaje informativo con los comandos disponibles dentro de cada negocio.
+- Modificadas las estadísticas iniciales en las nuevas cuentas.
+- Terminado el comando /balance para dentro de algunos negocios.
+- Se agregó un sistema de cadáveres básico.
+- Ahora cada cadaver desaparecerá despues de 5 minutos.
+- Ahora cada log administrativo tendrá una ID única para identificarlo mejor.
+- Optimizada la gamemode a la hora de ser encendido el servidor.
+- Se comienza a crear el artconfig.txt por si en un futuro nos pasamos a 0.3.DL.
+- Fixeado un buf del comando /mutearb.
+- Ahora los reportes del servidor y dudas llegaran a discord.
+- Terminado el comando /discord.
+- Terminadas las funciones para mapname.
+
+
+
 ## [1.0.3] - 25/01/2020
 
 - Se agregó el infernus al catalogo de vehículos.
@@ -22,7 +43,7 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Removidos 5 semáforos de Dillmore.
 - Fixeado un bug del /setplaca para el líder de la SD.
 - Limpiado el GM de códigos inútiles que lo sobrecargaban.
-- Arreglado e insertado parkings para vehículos.
+- Arreglados e insertados parkings para vehículos.
 - Bug del hospital de Montgomery solucionado.
 
 
