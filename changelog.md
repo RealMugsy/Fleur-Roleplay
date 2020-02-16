@@ -5,6 +5,29 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 
 ## [Versiones publicadas]
 
+## [1.0.5] - 16/02/2020
+
+- Se cambio la versión del servidor a [SA:MP 0.3.DL](https://forum.sa-mp.com/showthread.php?t=648633).
+- Seteadas las coordenadas de las gasolineras de Red County en la gamemode.
+- Ahora al rellenar gasolina te mandara una factura el servidor.
+- Ahora al revisar a alguien si tienes mas de 800 dólares no saldrá la cantidad exacta a la hora de ser revisado.
+- Se comienza con el desarrollo del velocímetro 3D aprovechando la versión 0.3.DL. (no implementado aun hasta la versión 1.1.0)
+- Cambiado el hostname del servidor por la nueva versión.
+- Fixeados algunos bugs con el sistema de heridas, los headshots no los reconocía.
+- Se agrego una función al sistema de muebles, ahora los puedes clonar y editar mas rápido.
+- Se editó toda la tabla de precios de vehículos a la venta.
+- Ahora al llegar a nivel 1 recibirás una recompensa extra.
+- Ahora en cada payday se cobraran intereses los cuales serán seteados por el líder de la alcaldía.
+- Creados algunos textos 3D en el servidor. (newsdisplay)
+- Fixeado algunos bugs de textdraws con la resolución de la pantalla de los jugadores.
+- Terminada la función TIMER_HideTextdraw y resueltos sus bugs.
+- Mejorar la vista previa de /muebles y los diálogos del sistema entero.
+- Se acomodo la cabecera de la gamemode y su organización de cada modulo.
+- Ahora los niveles 0 no podrán portar armas por restricción.
+- Creado un comando administrativo para dar permiso de portar armas a jugadores con nivel 0.
+- Terminado los textos informativos del tutorial de inicio.
+
+
 ## [1.0.4] - 08/02/2020
 
 - Modificado el tiempo de logeo, de 60 segundos a 120 segundos.
@@ -28,7 +51,7 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 
 ## [1.0.3] - 25/01/2020
 
-- Se agregó el infernus al catalogo de vehículos.
+- Se agregó el infernus al catalogo de vehículos para comprar.
 - Agregado un diálogo de confirmación antes de enviar un MP a un staff duty.
 - Agregado un diálogo de confirmación antes de enviar un reporte.
 - Fixeado un bug del comando /log para la administración.
