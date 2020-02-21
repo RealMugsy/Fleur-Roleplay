@@ -5,6 +5,29 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 
 ## [Versiones publicadas]
 
+## [1.0.6] - 21/02/2020
+- Agregado el mapeo del exterior de la prisión estatal de Red County.
+- Removidos algunos módulos innecesarios de la gamemode para optimizar la misma.
+- Creado un modulo aparte para mapeados de interiores.
+- Corregido un error en el registro que no guardaba las cuentas.
+- Se modificaron algunos timers de la gamemode.
+- Aumentadas las pagas de los trabajos principales de la gamemode.
+- Resuelto un error critico cuando un jugador desconecta estando muerto.
+- Arregladas las camaras de inicio del tutorial.
+- Cambios en el formato de la radio de facción.
+- Terminado el comando /subirnivel, ahora con funciones extras que descubrirás dentro del servidor.
+- Modificada la animación al caer en estado de muerto.
+- Nuevos objetos agregados a la gamemode. (sin uso actualmente)
+- Ahora para que alguien te revise deberas aceptarlo previamente mediante un comando.
+- Actualizado color del /do, ahora será morado.
+- Corregido precios de 24/7 y demás negocios del servidor.
+- La economía del servidor fue re ajustada y modificada de manera global. (nos basamos en la economía del estado de California, EEUU)
+- Corregido error al eliminar muebles puesto que no se eliminaban de la base de datos.
+- Modificados los precios de las armas para el negocio de tienda de armas.
+- Fixeado un error de formato en el comando /hq.
+
+
+
 ## [1.0.5] - 16/02/2020
 
 - Se cambio la versión del servidor a [SA:MP 0.3.DL](https://forum.sa-mp.com/showthread.php?t=648633).
@@ -13,13 +36,13 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Ahora al revisar a alguien si tienes mas de 800 dólares no saldrá la cantidad exacta a la hora de ser revisado.
 - Se comienza con el desarrollo del velocímetro 3D aprovechando la versión 0.3.DL. (no implementado aun hasta la versión 1.1.0)
 - Cambiado el hostname del servidor por la nueva versión.
-- Fixeados algunos bugs con el sistema de heridas, los headshots no los reconocía.
+- Arreglados algunos bugs con el sistema de heridas, los headshots no los reconocía.
 - Se agrego una función al sistema de muebles, ahora los puedes clonar y editar mas rápido.
 - Se editó toda la tabla de precios de vehículos a la venta.
-- Ahora al llegar a nivel 1 recibirás una recompensa extra.
+- Ahora al llegar a nivel uno recibirás una recompensa extra.
 - Ahora en cada payday se cobraran intereses los cuales serán seteados por el líder de la alcaldía.
 - Creados algunos textos 3D en el servidor. (newsdisplay)
-- Fixeado algunos bugs de textdraws con la resolución de la pantalla de los jugadores.
+- Arreglado algunos bugs de textdraws con la resolución de la pantalla de los jugadores.
 - Terminada la función TIMER_HideTextdraw y resueltos sus bugs.
 - Mejorar la vista previa de /muebles y los diálogos del sistema entero.
 - Se acomodo la cabecera de la gamemode y su organización de cada modulo.
@@ -28,11 +51,12 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Terminado los textos informativos del tutorial de inicio.
 
 
+
 ## [1.0.4] - 08/02/2020
 
 - Modificado el tiempo de logeo, de 60 segundos a 120 segundos.
 - Cambiado el lugar de spawn del servidor.
-- Arregladas algunas funciones del anticheat.
+- Arregladas algunas funciones del anticheat para mejor experiencia de uso.
 - Aumentado el tiempo de uso del /reaparecer.
 - Agregado un mensaje informativo con los comandos disponibles dentro de cada negocio.
 - Modificadas las estadísticas iniciales en las nuevas cuentas.
@@ -42,7 +66,7 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Ahora cada log administrativo tendrá una ID única para identificarlo mejor.
 - Optimizada la gamemode a la hora de ser encendido el servidor.
 - Se comienza a crear el artconfig.txt por si en un futuro nos pasamos a 0.3.DL.
-- Fixeado un buf del comando /mutearb.
+- Arreglado un buf del comando /mutearb.
 - Ahora los reportes del servidor y dudas llegaran a discord.
 - Terminado el comando /discord.
 - Terminadas las funciones para mapname.
@@ -54,8 +78,8 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Se agregó el infernus al catalogo de vehículos para comprar.
 - Agregado un diálogo de confirmación antes de enviar un MP a un staff duty.
 - Agregado un diálogo de confirmación antes de enviar un reporte.
-- Fixeado un bug del comando /log para la administración.
-- Fixeado un error en la carga de vehículos que ocasionaba que los últimos vehículos comprados no aparecieran ni respondieran en el servidor.
+- Arreglado un bug del comando /log para la administración.
+- Arreglado un error en la carga de vehículos que ocasionaba que los últimos vehículos comprados no aparecieran ni respondieran en el servidor.
 - Removidos algunos mapeos sin uso de Los Santos.
 - Re modificada la función de sacar vehículos.
 - Creado el comando /mutearb para bloquear el uso del /b a un jugador.
@@ -64,7 +88,7 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Arreglados algunos bugs del procesamiento de la base de datos.
 - Creado el comando /cambiar hora y /cambiar clima para el staff.
 - Removidos 5 semáforos de Dillmore.
-- Fixeado un bug del /setplaca para el líder de la SD.
+- Arreglado un bug del /setplaca para el líder de la SD.
 - Limpiado el GM de códigos inútiles que lo sobrecargaban.
 - Arreglados e insertados parkings para vehículos.
 - Bug del hospital de Montgomery solucionado.
@@ -79,15 +103,15 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Creado un comando para la sheriff, podrá revisar el interior de un paquete.
 - Se agregaron 3 membresías al servidor. (bronce, plata y oro)
 - Agregadas 6 partes nuevas del cuerpo. (para el sistema de heridas)
-- Fixeados algunos errores de sincronización a la hora de un tiroteo.
+- Arreglados algunos errores de sincronización a la hora de un tiroteo.
 - Ahora un staff si espectea a alguien podrá ver toda la información en un textdraw.
 - Aumentada la distancia de dibujado en los mapeos de Montgomery.
 - Removidos 4 semáforos nuevos en Montgomery.
-- Fixeado un error del sistema de heridas.
+- Arreglado un error del sistema de heridas.
 - Agregadas nuevas columnas a la base de datos.
 - Agregado un /ayuda solo para usuarios premium.
 - Removidos 6 semaforos en Palomino Creek.
-- Fixeado un error visual en el velocímetro.
+- Arreglado un error visual en el velocímetro.
 - Arreglados algunos callbacks del MDC policial.
 - Agregados más de 800 objetos nuevos por todo Palomino Creek decorando y dando el entorno correspondiente.
 - Divididos los mapeos de la gamemode por módulos.
@@ -135,8 +159,8 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Agregados mapeos en las granjas mas importantes de Red County.
 - Terminado el menú del comando /mdc. Ahora contiene más funciones que la gamemode base.
 - Agregadas todas las señales de las calles en todo Red County.
-- Fixeado los bugs de la gamemode base.
-- Fixeado un bug grave que no guardaba el dinero al logear.
+- Arreglado los bugs de la gamemode base.
+- Arreglado un bug grave que no guardaba el dinero al logear.
 - Ahora podrás llamar al 788 y reportar un vehículo como robado con su matricula. (llegara un aviso a SD)
 - Ahora los lideres podrán setear una placa a un miembro. (/setplaca)
 - Los miembros de facción ahora podrán enseñar su /placa o mirarla.
