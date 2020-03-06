@@ -5,7 +5,31 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 
 ## [Versiones publicadas]
 
+## [1.0.7] - 06/03/2020
+
+- Sistema de verificación de IP vía whitelist para evitar ataques. (aun esta en testeo, se activara cuando el servidor sea atacado)
+- Se mejoro la latencia del servidor.
+- Ahora al hacer mapper a alguien si se guardara la variable y no se perderá.
+- Terminado el menú del /uniformes dependiendo la facción y su tipo.
+- Se termino de arreglar la función FactionNotifyBeep y derivados.
+- Removidos 12 semáforos en todos los pueblos.
+- Añadidos algunos métodos para mejorar diálogos y prevenir dialog flood/spoofing.
+- Mejorado el sistema para tasear a alguien si eres policía.
+- Agregado un precio máximo para poner viviendas en rentas. (máximo 500$)
+- Ahora los niveles uno solo podrán pagar máximo 500$.
+- Se agregaron logros de nivel con recompensas al servidor.
+- Añadido varios textos guías al inicio del servidor.
+- Añadido algunos comandos administrativos para mejor gestión ingame.
+- Reparado un error en login con los colores.
+- Limitado el query en el servidor para los jugadores a la hora de entrar.
+- Ahora las armas tiradas en el suelo, se guardaran tras los reinicios del servidor. (vía MYSQL).
+- Reparado el cargador de las escopetas ahora podrán ser recargadas.
+- Agregados más de 25 nuevas skins al servidor. (modelos 0.3.DL)
+
+
+
 ## [1.0.6] - 21/02/2020
+
 - Agregado el mapeo del exterior de la prisión estatal de Red County.
 - Removidos algunos módulos innecesarios de la gamemode para optimizar la misma.
 - Creado un modulo aparte para mapeados de interiores.
@@ -13,12 +37,12 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Se modificaron algunos timers de la gamemode.
 - Aumentadas las pagas de los trabajos principales de la gamemode.
 - Resuelto un error critico cuando un jugador desconecta estando muerto.
-- Arregladas las camaras de inicio del tutorial.
+- Arregladas las cámaras de inicio del tutorial.
 - Cambios en el formato de la radio de facción.
 - Terminado el comando /subirnivel, ahora con funciones extras que descubrirás dentro del servidor.
 - Modificada la animación al caer en estado de muerto.
 - Nuevos objetos agregados a la gamemode. (sin uso actualmente)
-- Ahora para que alguien te revise deberas aceptarlo previamente mediante un comando.
+- Ahora para que alguien te revise deberás aceptarlo previamente mediante un comando.
 - Actualizado color del /do, ahora será morado.
 - Corregido precios de 24/7 y demás negocios del servidor.
 - La economía del servidor fue re ajustada y modificada de manera global. (nos basamos en la economía del estado de California, EEUU)
@@ -62,11 +86,11 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Modificadas las estadísticas iniciales en las nuevas cuentas.
 - Terminado el comando /balance para dentro de algunos negocios.
 - Se agregó un sistema de cadáveres básico.
-- Ahora cada cadaver desaparecerá despues de 5 minutos.
+- Ahora cada cadáver desaparecerá después de 5 minutos.
 - Ahora cada log administrativo tendrá una ID única para identificarlo mejor.
 - Optimizada la gamemode a la hora de ser encendido el servidor.
 - Se comienza a crear el artconfig.txt por si en un futuro nos pasamos a 0.3.DL.
-- Arreglado un buf del comando /mutearb.
+- Arreglado un bug  del comando /mutearb.
 - Ahora los reportes del servidor y dudas llegaran a discord.
 - Terminado el comando /discord.
 - Terminadas las funciones para mapname.
@@ -75,7 +99,7 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 
 ## [1.0.3] - 25/01/2020
 
-- Se agregó el infernus al catalogo de vehículos para comprar.
+- Se agregó el vehículo Infernus al catalogo de vehículos para comprar.
 - Agregado un diálogo de confirmación antes de enviar un MP a un staff duty.
 - Agregado un diálogo de confirmación antes de enviar un reporte.
 - Arreglado un bug del comando /log para la administración.
@@ -152,7 +176,7 @@ Contamos con una [web](https://fleur-roleplay.es) para que obtengas más informa
 - Creado el comando /mismultas donde podrás ver en un dialogo la lista de tus multas.
 - Creado el comando /pagarmulta para poder pagar la multa según la ID de la mismas.
 - Se agregó una función de poder imprimir la información de la multa en el chat.
-- Removidos 7 semaforos en Montgomery y agregadas señales de tráfico.
+- Removidos 7 semáforos en Montgomery y agregadas señales de tráfico.
 - Terminado el comando /staff para consultar la administración en linea.
 - Agregadas nuevas camaras de inicio del servidor.
 - Mejorado el registro de los pasos del login de cada jugador en el server_log.
